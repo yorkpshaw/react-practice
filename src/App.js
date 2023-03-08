@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import BrokenClick from './BrokenClick';
+import CounterClass from './CounterClass';
+import CounterHooks from './CounterHooks';
+import Rando from './rando';
+import SimpleFormHooks from './SimpleFormHooks';
+import Toggler from './Toggler';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <CounterHooks /> */}
+      {/* <Rando maxNum={7}/> */}
+      {/* <BrokenClick /> */}
+      {/* <CounterClass /> */}
+      {/* <Toggler /> */}
+      <SimpleFormHooks />
     </div>
   );
 }
